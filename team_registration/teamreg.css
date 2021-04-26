@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BANNER */
+.banner {
+    background: linear-gradient(0deg, rgba(54, 13, 33, 0.7), rgba(54, 13, 33, 0.7)), url("../assets_/others/overwatchbg.jpg");
+    width: auto;
+    height: 235px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px; 
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase; 
+}
+/* MAIN */
+main {
+    width: auto;
+    height: 800px;
+    background: linear-gradient(180deg, #060A1A 30.73%, #360D21 53.65%, #060A1A 71.35%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box1_container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.box1 {
+    width: 660px;
+    height: 265px;
+    border: 5px solid white;
+    box-sizing: border-box;
+    filter: drop-shadow(5px 5px 63px #3D3D3D);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.box1 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px; 
+    color: #ffffff;
+    text-align: left;
+    margin: 25px 0px 10px 40px;
+}
+.box1 input[type="text"] {
+    margin-left: 25px;
+    color: white;
+    text-indent: 10px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 20px;
+    width: 600px;
+    height: 30px;
+}
+.file {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+.file_input label {
+    display: block;
+    margin-left: 25px;
+    width: 145px;
+    height: 30px;
+    border: 3px solid white;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.submit {
+    width: 660px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.submit input[type="submit"] {
+    background-color: #FF1B1C;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border-style: none;
+    width: 140px;
+    height: 40px;
+}
+.box2_container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+.box2_container h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px; 
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box2_table {
+    width: 770px;
+    height: 180px;
+}
+table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+#row1 {
+    border: 2px solid white;
+}
+tr {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+}
+th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 22px; 
+    color: #ffffff;
+    text-align: left;
+    background-color: #010101;
+    height: 60px;
+    padding-left: 20px;
+}
+td {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px; 
+    color: #ffffff;
+    text-align: left;
+    height: 60px;
+    padding-left: 20px;
+}
+.tableimg {
+    width: 40px;
+    height: 40px;
+}
